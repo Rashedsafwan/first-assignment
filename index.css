@@ -35,6 +35,7 @@
     font-size: 16px;
     line-height: 28px;
     font-weight: lighter;
+    opacity: 0.8;
 }
 
 .text-tittle {
@@ -92,6 +93,7 @@
     padding: 20px 0px;
     width: 60%;
     margin: auto;
+    opacity:0.5;
 }
 .mini-section{
     background-color: #2727270D;
@@ -137,6 +139,7 @@
     padding: 20px 0px;
     color: rgb(80, 79, 79);
     font-size: 14px;
+    opacity:0.8;
 }
 .four-rectangle{
     width: 73%;
@@ -187,4 +190,22 @@ input::placeholder{
     font-size: 12px;
     opacity: 0.8;
     text-align: left;
+}
+.footer{
+    background-color: #111010;
+    text-align: center;
+    color: rgb(160, 156, 156);
+    padding: 80px 0px;
+}
+.shop{
+    color:white;
+}
+.flower{
+    color:#E55473;
+}
+.footer-description{
+    font-size: 12px;
+    width: 30%;
+    margin: auto;
+    padding: 20px 0px;
 }
