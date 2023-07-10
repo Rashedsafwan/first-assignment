@@ -1,38 +1,98 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* first banner Section */
-.first-banner{
+.first-banner {
     height: 90vh;
     background-color: #E554731A;
     background-image: url('./Flower Asset/pngwing 10.png');
     background-repeat: no-repeat;
-    background-position: bottom right 240px;
-    background-size: 400px; 
+    background-position: bottom right 220px;
+    background-size: 400px;
 }
-.text{
-    padding-left:150px;
+
+.text {
+    padding-left: 150px;
     padding-top: 70px;
     width: 50%;
 }
-.btn{
+
+.btn {
     padding: 13px 25px;
     border-radius: 6px;
     background-color: #E55473;
     color: white;
     border: none;
 }
-.text-description{
+
+.text-description {
     margin: 25px 0px;
     color: rgb(107, 105, 105);
     width: 85%;
+    font-size: 16px;
     line-height: 28px;
     font-weight: lighter;
 }
 
-.text-tittle{
+.text-tittle {
     font-size: 50px;
     font-weight: bold;
+}
+
+/* second Banner */
+.flower-box {
+    background-color: #A7216226;
+    width: 290px;
+    height: 350px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    /* background-image: url('/Flower Asset/pngwing 6.png');
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: bottom center; */
+    /* background-repeat: no-repeat; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box2{
+    background-color: #0597A026;
+}
+.box3{
+    background-color: #477D1126;
+}
+
+.pic {
+    width: 200px;
+    position: absolute;bottom: 0px;left: 50px;
+}
+.pic2{
+    position: absolute;bottom: 25px;left: 48px;
+    width: 240px;
+}
+.image-text{
+    text-decoration: underline;
+}
+
+.main-box {
+    text-align: center;
+}
+.all-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.second-banner{
+    text-align: center; 
+    margin-top: 80px;
+    height: 90vh;
+}
+.banner-description{
+    padding: 20px 0px;
+    width: 40%;
+    margin: auto;
 }
