@@ -90,18 +90,51 @@
 }
 .banner-description{
     padding: 20px 0px;
-    width: 40%;
+    width: 60%;
     margin: auto;
 }
 .mini-section{
     background-color: #2727270D;
-    width: 73%;
     display: flex;
     gap: 60px;
     justify-content: center;
+    width: 73%;
     margin: auto;
 }
 .text-image{
     text-align: center;
+    color: rgb(80, 79, 79);
     padding: 40px 0px;
+    font-size: 15px;
+}
+.red{
+    color: red;
+}
+.flower-tob{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E554730D;
+    height: 55vh;
+    margin: 70px auto;
+    position: relative;
+}
+.tob{
+    width: 190px;
+}
+.text2{
+    width: 40%;
+    position: absolute;
+    text-align: center;
+    left:210px;
+}
+.img{
+    position: absolute;
+    right: 300px;
+}
+.tob-description{
+    padding: 20px 0px;
+    color: rgb(80, 79, 79);
+    font-size: 14px;
 }
