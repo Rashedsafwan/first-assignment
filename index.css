@@ -153,3 +153,38 @@
     gap: 5px;
     justify-content: center;
 }
+.last-section{
+    width: 73%;
+    height: 55vh;
+    text-align: center;
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-size: cover;
+    margin: 70px auto;
+}
+.lsection{
+    padding: 100px 0px;
+    /* display: flex;
+    align-items: center; */
+}
+.lsection input{
+    width: 100%;
+    font-size: 30px;
+    margin: auto;
+    border-radius: 3px;
+    border: none;  
+}
+.form{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.email{
+    width: 500px;
+
+}
+input::placeholder{
+    font-size: 12px;
+    opacity: 0.8;
+    text-align: left;
+}
