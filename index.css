@@ -44,8 +44,8 @@
 
 .flower-box{
     background-color: #A7216226;
-    width: 290px;
-    height: 350px;
+    width: 310px;
+    height: 380px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     position: relative;
@@ -61,12 +61,12 @@
 }
 
 .pic{
-    width: 200px;
+    width: 215px;
     position: absolute;bottom: 0px;left: 50px;
 }
 .pic2{
-    position: absolute;bottom: 25px;left: 48px;
-    width: 240px;
+    position: absolute;bottom: 25px;left: 40px;
+    width: 270px;
 }
 .image-text{
     text-decoration: underline;
@@ -92,4 +92,16 @@
     padding: 20px 0px;
     width: 40%;
     margin: auto;
+}
+.mini-section{
+    background-color: #2727270D;
+    width: 73%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: auto;
+}
+.text-image{
+    text-align: center;
+    padding: 40px 0px;
 }
