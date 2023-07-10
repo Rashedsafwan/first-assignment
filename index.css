@@ -138,3 +138,18 @@
     color: rgb(80, 79, 79);
     font-size: 14px;
 }
+.four-rectangle{
+    width: 73%;
+    text-align: center;
+    margin: auto;
+}
+.recpic{
+    width: 242px;
+
+}
+.all-rectangle{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
