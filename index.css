@@ -43,17 +43,13 @@
 }
 
 /* second Banner */
+
 .flower-box {
     background-color: #A7216226;
     width: 290px;
     height: 350px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
-    /* background-image: url('/Flower Asset/pngwing 6.png');
-    background-size: 220px;
-    background-repeat: no-repeat;
-    background-position: bottom center; */
-    /* background-repeat: no-repeat; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -78,19 +74,22 @@
     text-decoration: underline;
 }
 
-.main-box {
+.main-box{
     text-align: center;
 }
+
 .all-boxes{
     display: flex;
     justify-content: center;
     gap: 28px;
 }
+
 .second-banner{
     text-align: center; 
     margin-top: 80px;
     height: 90vh;
 }
+
 .banner-description{
     padding: 20px 0px;
     width: 40%;
