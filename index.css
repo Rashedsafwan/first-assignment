@@ -69,8 +69,8 @@
     background-color: #A7216226;
     width: 310px;
     height: 380px;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
+    border-top-left-radius: 155px;
+    border-top-right-radius: 155px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -185,33 +185,14 @@
     background-image: url('./Flower Asset/Rectangle 9.png');
     background-size: cover;
     margin: 70px auto;
+    border-radius: 4px;
 }
 .lsection{
     padding: 100px 0px;
-    /* display: flex;
-    align-items: center; */
 }
-.lsection input{
-    width: 100%;
-    font-size: 30px;
-    margin: auto;
-    border-radius: 3px;
-    border: none;  
-}
-.form{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    justify-content: center;
-}
-.email{
-    width: 500px;
 
-}
-input::placeholder{
-    font-size: 12px;
-    opacity: 0.8;
-    text-align: left;
+input{
+    padding: 10px 240px 10px 0px;
 }
 .footer{
     background-color: #111010;
