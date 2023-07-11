@@ -231,8 +231,38 @@ input{
     cursor: pointer;
     background-color: white;
 }
-.btn:hover{
+.btn:hover,.club-button:hover{
     cursor: pointer;
     background-color: white;
     color: black;
+}
+.club{
+    text-align: center;
+    background-color: grey;
+    padding-bottom: 30px;
+}
+.flower-club{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    position: relative;
+}
+.club-img{
+    width: 630px;
+    height: 450px;
+  border-radius: 20px;
+}
+.love{
+    padding: 20px;
+    /* color: white; */
+}
+.club-button{
+    /* margin-bottom: 100px; */
+    position: absolute;top:50%;
+    display: block;
+    padding: 15px 25px;
+    border: none;
+    background-color: #E55473;
+    border-radius: 6px;
+
 }
