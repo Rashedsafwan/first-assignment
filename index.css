@@ -192,7 +192,9 @@
 }
 
 input{
-    padding: 10px 240px 10px 0px;
+    padding: 12px 240px 12px 2px;
+    border: none;
+    border-radius: 5px;
 }
 .footer{
     background-color: #111010;
@@ -211,7 +213,7 @@ input{
 }
 .footer-description{
     font-size: 12px;
-    width: 30%;
+    width: 55%;
     margin: auto;
     padding: 20px 0px;
 }
